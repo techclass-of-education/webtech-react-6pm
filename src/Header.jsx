@@ -1,8 +1,8 @@
-export function Header()
+export const Header=({title})=>
 {
-    return(<div>
+    return(
 
-        <h1>Header</h1>
+        <h1>{title}</h1>
 
-    </div>)
+    )
 }
