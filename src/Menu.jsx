@@ -67,6 +67,17 @@ export function Menu({isLogin}) {
                   Bank Context
                   </Link>
                 </li>
+ <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+                 <ul class="dropdown-menu">
+            <li><Link className="dropdown-item" to="/useEffect1">UseEffect</Link></li>
+            <li><Link className="dropdown-item" to="/useEffectShoppingCart">Shopping Cart</Link></li>
+            
+          </ul>
+          </li>
+
                 {/* <li className="nav-item">
                   <Link className="nav-link" aria-current="page" to="/noContextHook">
                     Without Context Hook

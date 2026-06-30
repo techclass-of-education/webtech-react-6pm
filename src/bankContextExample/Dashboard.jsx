@@ -22,7 +22,7 @@ export const Dashboard = () => {
       name: "Priya",
       balance: 72000,
       accountType: "Saving",
-    },
+    }
   ]);
 
   function addAc() {

@@ -14,6 +14,8 @@ import { PersonDetails } from "./PersonDetails.jsx"
 import { Component1 } from "./withContextHook/Component1.jsx"
 import  BankHome from "./bankContextExample/Home.jsx"  // default import
 import { Dashboard } from "./bankContextExample/Dashboard.jsx"
+import { EffectHookExample } from "./useEffectHook/EffectHookExample.jsx"
+import { MyShoppingCart } from "./useEffectHook/shoppingCart/MyShoppingCart.jsx"
 function App() {
   const [isLogin,setLogin]=useState(false)
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/contextHook" element={<Component1/>}/>
         <Route path="/bhome" element={<BankHome/>}/>
         <Route path="/dash" element={<Dashboard/>}/>
+        <Route path="/useEffect1" element={<EffectHookExample/>}/>
+        <Route path="/useEffectShoppingCart" element={<MyShoppingCart/>}/>
 
       </Routes>
     </BrowserRouter>
